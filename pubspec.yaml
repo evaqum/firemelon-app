@@ -1,0 +1,35 @@
+name: firemelon_flutter
+description: Simple password generator app
+
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=2.17.6 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firemelon: ^1.0.1
+  freezed_annotation: ^2.1.0
+  flutter_bloc: ^8.1.1
+  google_fonts: ^3.0.1
+  go_router: ^4.3.0
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+  auto_size_text: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  freezed: ^2.1.0+1
+  build_runner: ^2.2.0
+  hive_generator: ^1.1.3
+  injectable_generator: ^1.5.4
+
+flutter:
+  uses-material-design: true
