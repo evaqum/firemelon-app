@@ -79,14 +79,14 @@ class _MelonPainter extends CustomPainter {
     drawMelon(melonInnerPath, 20);
     drawMelon(melonCenterPath, 28);
 
-    Paint outerPaint = Paint();
-    const orang = Color.fromARGB(255, 255, 152, 50);
-    outerPaint.shader = SweepGradient(
-      colors: const [orang, Color(0xFFFF6969), orang],
-      transform: GradientRotation(animation.value * pi * 2),
-    ).createShader(
-      Rect.fromCircle(center: center, radius: baseRadius),
-    );
+    const orange = Color.fromARGB(255, 255, 152, 50);
+    Paint outerPaint = Paint()
+      ..shader = SweepGradient(
+        colors: const [orange, Color(0xFFFF6969), orange],
+        transform: GradientRotation(animation.value * pi * 2),
+      ).createShader(
+        Rect.fromCircle(center: center, radius: baseRadius),
+      );
 
     // outerPaint.shader = ui.Gradient.sweep(
     //   center,
@@ -98,13 +98,13 @@ class _MelonPainter extends CustomPainter {
     //   Matrix4.rotationX(radians)
     // );
 
-    Paint innerPaint = Paint();
-    innerPaint.style = PaintingStyle.fill;
-    innerPaint.color = const Color(0xFFFFE7E7);
+    Paint innerPaint = Paint()
+      ..style = PaintingStyle.fill
+      ..color = const Color(0xFFFFE7E7);
 
-    Paint centerPaint = Paint();
-    centerPaint.style = PaintingStyle.fill;
-    centerPaint.color = const Color(0xFFFFA05C);
+    Paint centerPaint = Paint()
+      ..style = PaintingStyle.fill
+      ..color = const Color(0xFFFFA05C);
 
     canvas.drawPath(
       melonOuterPath,

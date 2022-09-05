@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -15,7 +13,6 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocListener<IntroCubit, IntroState>(
       listener: (context, state) {
-        log('$state');
         state.when<void>(
           initial: () {},
           notSeenIntro: () {
