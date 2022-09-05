@@ -1,16 +1,14 @@
-# firemelon_flutter
+# firemelon
 
-A new Flutter project.
+firemelon is a poor made password generator app (based on [firemelon](https://github.com/evaqum/firemelon-dart) (based on [firemelon](https://github.com/evtn/firemelon))), as well as a simple password manager for generated passwords!!
 
-## Getting Started
+### features:
+- generate passwords
+- save generated passwords
 
-This project is a starting point for a Flutter application.
+it's ***that*** simple!
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## some screenshots..
+<img src="https://user-images.githubusercontent.com/54950997/188500768-76000d18-50a5-4c1b-8b93-3405f7dd9a0a.png" width="450">
+<img src="https://user-images.githubusercontent.com/54950997/188500879-65ccd4da-51df-4d1d-99e2-06fdcd3a7efd.png" width="450">
+<img src="https://user-images.githubusercontent.com/54950997/188500881-8ca6d419-a81e-446a-a7a3-7e2b4aa592a3.png" width="450">
