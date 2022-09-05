@@ -1,4 +1,7 @@
-# firemelon
+<picture>
+  <source media='(prefers-color-scheme: dark)' srcset='https://i.imgur.com/RScyDlp.png' alt='firemelon'/>
+  <img src='https://i.imgur.com/hmMGkSb.png' alt='firemelon' />
+</picture>
 
 firemelon is a poor made password generator app (based on [firemelon](https://github.com/evaqum/firemelon-dart) (based on [firemelon](https://github.com/evtn/firemelon))), as well as a simple password manager for generated passwords!!
 
